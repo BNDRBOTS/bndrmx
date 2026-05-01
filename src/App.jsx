@@ -16,13 +16,13 @@ function useIsMobile(breakpoint = 768) {
 const C = {
   bg:       '#F5F0E6',
   darker:   '#EDE6D8',
-  grid:     '#DCD5C5',
-  border:   '#C5BCA8',
-  A:        '#B8860B',
-  B:        '#8B7355',
+  grid:     '#C5BAA5',
+  border:   '#B9AD96',
+  A:        '#8B6508',
+  B:        '#7B5C3E',
   text:     '#4A3B28',
-  dim:      '#B0A590',
-  mid:      '#7B6B4A',
+  dim:      '#7A6A50',
+  mid:      '#6A5B3F',
   err:      '#C0392B',
 };
 
