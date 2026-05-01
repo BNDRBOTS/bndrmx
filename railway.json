@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "npm run preview -- --host --port ${PORT:-4173}",
+    "startCommand": "npx serve dist --listen $PORT",
     "restartPolicyType": "ON_FAILURE"
   }
 }
