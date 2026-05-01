@@ -14,16 +14,16 @@ function useIsMobile(breakpoint = 768) {
 
 // ── Design tokens ────────────────────────────────────────────────
 const C = {
-  bg:       '#F5F0E6',
-  darker:   '#EDE6D8',
-  grid:     '#C5BAA5',
-  border:   '#B9AD96',
-  A:        '#8B6508',
-  B:        '#7B5C3E',
-  text:     '#4A3B28',
-  dim:      '#7A6A50',
-  mid:      '#6A5B3F',
-  err:      '#C0392B',
+  bg:       '#F8F4E6',   // bone
+  darker:   '#ECE5D5',   // slightly darker bone
+  grid:     '#B0A59A',   // wet cement
+  border:   '#A3998D',   // deeper wet cement
+  A:        '#FF7043',   // warm orange/coral glow
+  B:        '#D84315',   // warm deep red-orange glow
+  text:     '#2E2B26',   // high-contrast dark text
+  dim:      '#7A7064',   // muted wet cement
+  mid:      '#4D473E',   // medium dark
+  err:      '#C62828',   // error red (high contrast)
 };
 
 // ── WebAudio support guard ───────────────────────────────────────
