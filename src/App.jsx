@@ -1,3 +1,4 @@
+
 import { useState, useEffect, useRef, useCallback } from "react";
 
 // ── Mobile breakpoint hook ───────────────────────────────────────
@@ -14,16 +15,16 @@ function useIsMobile(breakpoint = 768) {
 
 // ── Design tokens ────────────────────────────────────────────────
 const C = {
-  bg:       '#0a0a0a',   // wet cement – dark
-  darker:   '#050505',
-  grid:     '#1a1a1a',
-  border:   '#2a241c',   // darker sand bone
-  A:        '#FF5A00',   // warm red-orange glow
-  B:        '#E62800',   // warm red glow
-  text:     '#FFFFFF',
-  dim:      '#A09080',   // sand bone – dim
-  mid:      '#C8B8A8',   // sand bone – mid
-  err:      '#FF3333',
+  bg:       '#F5F0E6',   // warm bone/light beige
+  darker:   '#E8E0D0',
+  grid:     '#DDD5C5',
+  border:   '#C8B8A0',
+  A:        '#6B8E23',   // olive green
+  B:        '#C040A0',   // deep magenta
+  text:     '#000000',
+  dim:      '#A0A0A0',   // light grey
+  mid:      '#707070',   // mid grey
+  err:      '#E60000',   // bright red
 };
 
 // ── WebAudio support guard ───────────────────────────────────────
